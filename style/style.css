@@ -106,7 +106,7 @@ header {
     display: flex;
     gap: 30px;
     width: 100%;
-    
+
 }
 
 .featured-content {
@@ -195,7 +195,7 @@ span a {
 /* Service section end here  */
 
 /* Hot Deals section start here  */
-.hotdeals-section{
+.hotdeals-section {
     max-width: 1360px;
     background-color: rgba(229, 84, 115, 0.05);
     display: flex;
@@ -204,33 +204,130 @@ span a {
     margin-top: 70px;
 
 }
-.hotdelas-text{
+
+.hotdelas-text {
     text-align: center;
 }
-.hotdelas-image img{
+
+.hotdelas-image img {
     width: 225px;
     height: 30ppx;
     margin: 70px 100px;
 }
+
 /* Hot Deals section end here  */
 
 
 /* Instagram section start here  */
-.instagram-content{
-  width: 90%;
-  margin: 0 auto;
-  margin-top: 100px;
+.instagram-content {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
 }
-.instagram-image{
+
+.instagram-image {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 15px;
 }
-.instagram-image img{
+
+.instagram-image img {
     width: 290px;
     height: 332px;
 }
-.instagram-content-text{
+
+.instagram-content-text {
     padding: 0 400px;
 }
+
 /* Instagram section end here  */
+
+/* Subscribe section start here  */
+.section-subscriber {
+    background-image: url('../image/latestbg.png');
+    width: 90%;
+    margin: 0 auto;
+    height: 318px;
+    margin-top: 70px;
+    background-position: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+#input-email {
+    height: 46px;
+    width: 500px;
+    padding: 10px;
+    border-radius: 8px;
+    background: #FFF;
+    border-radius: none;
+    margin-right: 5px;
+    border: none;
+}
+
+/* Subscribe section end here  */
+
+/* Footer section start here  */
+.footer-container {
+    max-width: 1360px;
+    height: 318px;
+    background: #111010;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+
+}
+
+.flower {
+    color: #E55473;
+    font-family: Lato;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.footer-text {
+    color: #fff;
+    font-family: Lato;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 20px 0;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.footer-copy{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* Footer section end here  */
