@@ -213,3 +213,24 @@ span a {
     margin: 70px 100px;
 }
 /* Hot Deals section end here  */
+
+
+/* Instagram section start here  */
+.instagram-content{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.instagram-image{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+}
+.instagram-image img{
+    width: 290px;
+    height: 332px;
+}
+.instagram-content-text{
+    padding: 0 400px;
+}
+/* Instagram section end here  */
