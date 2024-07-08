@@ -19,12 +19,36 @@
     cursor: pointer;
 }
 
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.section-descriptions {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 17px;
+    width: 422px;
+    margin-bottom: 25px;
+}
+
 /* header section start here  */
 header {
     max-width: 1360px;
     height: 600px;
     background-color: rgba(229, 84, 115, 0.10);
 }
+
 .header-section {
     width: 90%;
     height: 600px;
@@ -34,9 +58,11 @@ header {
     justify-content: center;
     gap: 68px;
 }
+
 .header-text {
     width: 500px;
 }
+
 .header-image {
     width: 450px;
 }
@@ -46,14 +72,16 @@ header {
     height: 100%;
     padding-top: 35px;
 }
+
 .header-title {
     color: #272727;
     font-family: Lato;
     font-size: 56px;
     font-style: normal;
     font-weight: 800;
-    line-height: normal;   
+    line-height: normal;
 }
+
 .header-description {
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
@@ -65,3 +93,74 @@ header {
 }
 
 /* header section end here  */
+
+/* Featured section start here  */
+.featured-section {
+    width: 90%;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.featured-card {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured-image-1,
+.featured-image-2,
+.featured-image-3 {
+    width: 330px;
+    height: 400px;
+    text-align: center;
+    padding: 0 auto;
+    padding-top: 72px;
+    border-radius: 50% 50% 0 0;
+
+}
+
+.featured-image-1 {
+    background-color: rgba(167, 33, 98, 0.15);
+}
+
+.featured-image-2 {
+    background-color: rgba(5, 151, 160, 0.15);
+}
+
+.featured-image-3 {
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
+.img-featured {
+    width: 220px;
+    height: 325px;
+}
+
+.feared-link {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+span a {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    /* 145.833% */
+    text-decoration-line: underline;
+}
+
+/* Featured section end here  */
