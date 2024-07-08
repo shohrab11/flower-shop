@@ -280,6 +280,7 @@ span a {
     align-items: center;
     justify-content:center;
     flex-direction: column;
+    margin-top: 70px;
 
 }
 
@@ -290,6 +291,7 @@ span a {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+   
 }
 
 .footer-text {
