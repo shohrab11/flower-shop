@@ -105,8 +105,8 @@ header {
 .featured-card {
     display: flex;
     gap: 30px;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
+    
 }
 
 .featured-content {
@@ -119,11 +119,11 @@ header {
 .featured-image-1,
 .featured-image-2,
 .featured-image-3 {
-    width: 330px;
+    width: 33%;
     height: 400px;
     text-align: center;
     padding: 0 auto;
-    padding-top: 72px;
+    padding-top: 75px;
     border-radius: 50% 50% 0 0;
 
 }
@@ -149,6 +149,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 25px;
 }
 
 span a {
@@ -159,8 +160,36 @@ span a {
     font-style: normal;
     font-weight: 700;
     line-height: 35px;
-    /* 145.833% */
     text-decoration-line: underline;
+    margin-top: 25px;
 }
 
 /* Featured section end here  */
+/* Service section start here  */
+.service-section {
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 100px;
+    margin-top: 50px;
+}
+
+.service-content {
+    text-align: center;
+}
+
+.service-section-text {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+
+}
+
+/* Service section end here  */
